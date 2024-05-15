@@ -7,9 +7,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 311792278
+  numberOfFiles: 11
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+  - BehavioralTimeSeries
 citation: 'Rouse, Adam G; Schieber, Marc H (2024) FALCON Benchmark M1: primary motor
   cortex recordings in primate during reach-to-grasp task (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000941/draft'
