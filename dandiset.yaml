@@ -36,8 +36,8 @@ assetsSummary:
   - ElectrodeGroup
   - BehavioralTimeSeries
 citation: 'Rouse, Adam G; Schieber, Marc H (2024) FALCON Benchmark M1-A: primary motor
-  cortex recordings in primate during reach-to-grasp task (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000941/draft'
+  cortex recordings in primate during reach-to-grasp task (Version 0.241029.1405)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000941/0.241029.1405'
 contributor:
 - identifier: 0000-0003-3785-1442
   includeInCitation: true
@@ -89,19 +89,20 @@ description: "This dataset contains multiunit spiking times and behavioral data 
   use of this dataset for purposes outside of the FALCON Benchmark. Each dataset split
   is considered one \"subject\" by the DANDI repository; only data from one monkey
   is included.\n\nData from an additional monkey is available here: https://dandiarchive.org/dandiset/001209"
+doi: 10.48324/dandi.000941/0.241029.1405
 ethicsApproval:
 - contactPoint:
     email: arouse@kumc.edu
     schemaKey: ContactPoint
   identifier: University of Rochester IACUC
   schemaKey: EthicsApproval
-id: DANDI:000941/draft
+id: DANDI:000941/0.241029.1405
 identifier: DANDI:000941
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000941/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000941/0.241029.1405/assets.yaml
 name: 'FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp
   task'
 protocol: []
@@ -147,6 +148,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000941/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000941/0.241029.1405
+version: 0.241029.1405
 wasGeneratedBy: []
